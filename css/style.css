@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#greet {
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+.box1{
+display: flex;
+
+justify-content:space-between;
+align-items: center;
+ min-height: calc(100vh - 80px);
+}
+.left{
+    width: 30%;
+}
+.centre{
+    width: 40%;
+}
+.right{
+    width:30%;
+}
+.icon{
+    color: aqua;
+}
+.icon:hover{
+    font-size: 2rem;
+    box-shadow: 10px;
+}
