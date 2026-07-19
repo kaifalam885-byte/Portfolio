@@ -1,11 +1,18 @@
-:root{
+:root {
+    --bg-primary: #0f0f1a;      /* main page background, near-black */
+    --bg-secondary: #1a1a2e;    /* slightly lighter, for cards/sections */
+    --text-primary: #f0f0f0;    /* main body text, off-white */
+    --text-secondary: #a0a0a0;  /* muted text, for descriptions */
+    --accent: #00e6e6;          /* your existing cyan accent */
+    --accent-dark: #00b3b3;     /* darker cyan for hover states */
+    --border-color: #2a2a3e;    /* subtle borders on dark bg */
+}
 
-    --bg-color:#09090B;
+html {
+    scroll-behavior: smooth;
+}
 
-    --primary-color:#7C3AED;
-
-    --text-color:#FFFFFF;
-
-    --secondary-text:#A1A1AA;
-
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
 }
