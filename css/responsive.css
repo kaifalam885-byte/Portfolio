@@ -48,10 +48,17 @@
     text-align: center;
     padding: 40px 20px;
   }
-
+.aboutimage img {
+    width: 15rem;      /* shrink from 20rem for phones */
+    height: 15rem;
+    object-fit: cover;
+}
   .aboutinfo {
     align-items: center;   /* center the column instead of left-align */
     text-align: center;
+     width: 100%;
+    max-width: 100%;   /* override the 550px cap */
+    padding: 0 10px;
   }
 
   /* ---- SKILLS ---- */
