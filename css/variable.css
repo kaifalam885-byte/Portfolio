@@ -3,8 +3,8 @@
     --bg-secondary: #1a1a2e;    /* slightly lighter, for cards/sections */
     --text-primary: #f0f0f0;    /* main body text, off-white */
     --text-secondary: #a0a0a0;  /* muted text, for descriptions */
-    --accent: #00e6e6;          /* your existing cyan accent */
-    --accent-dark: #00b3b3;     /* darker cyan for hover states */
+    --accent: #b464ff;          /* purple, matches cursor fog */
+    --accent-dark: #9440e6;    /* darker cyan for hover states */
     --border-color: #2a2a3e;    /* subtle borders on dark bg */
 }
 
@@ -13,6 +13,18 @@ html {
 }
 
 body {
-    background-color: var(--bg-primary);
+    background:
+        radial-gradient(
+            circle at 20% 30%,
+            rgba(180, 100, 255, 0.1),
+            transparent 40%
+        ),
+        radial-gradient(
+            circle at 80% 70%,
+            rgba(180, 100, 255, 0.06),
+            transparent 45%
+        ),
+        var(--bg-primary);
+
     color: var(--text-primary);
 }

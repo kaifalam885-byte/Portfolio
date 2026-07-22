@@ -8,3 +8,32 @@
     opacity: 1;
     transform: translateY(0);
 }
+/* ABOUT IMAGE - starts from left */
+.aboutimage.reveal {
+    opacity: 0;
+    transform: translateX(-100px) scale(0.8);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* ABOUT TEXT - starts from right */
+.aboutinfo.reveal {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Final positions */
+.aboutimage.reveal.visible,
+.aboutinfo.reveal.visible {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+}
+
+/* Purple glow when hovering profile */
+.aboutimage img:hover {
+    transform: scale(1.07);
+    border: 3px solid var(--accent);
+    box-shadow:
+        0 0 15px rgba(180, 100, 255, 0.5),
+        0 0 35px rgba(180, 100, 255, 0.3);
+}

@@ -6,6 +6,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 20px;
+    
+     /* Fixed navbar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+body {
+    padding-top: 50px;
 }
 .nav-links {
     display: flex;
@@ -23,4 +32,40 @@ a {
 
 a:hover {
     text-shadow: 2px 2px 10px black;
+}
+.nav-links a {
+    position: relative;
+    padding-bottom: 6px;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+
+    width: 0;
+    height: 2px;
+
+    background: var(--accent);
+    border-radius: 10px;
+
+    transform: translateX(-50%);
+    transition: width 0.35s ease;
+
+    box-shadow: 0 0 8px var(--accent);
+}
+
+/* Hover underline */
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* Current section underline */
+.nav-links a.active::after {
+    width: 100%;
+}
+
+.nav-links a.active {
+    color: var(--accent);
 }

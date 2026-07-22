@@ -33,7 +33,7 @@ function typeWriter(element, words, typeSpeed = 100, pauseTime = 1500) {
  
 // Run it on your role heading
 document.addEventListener('DOMContentLoaded', () => {
-    const roleElement = document.querySelector('.right h2');
+    const roleElement = document.querySelector('#shi'); 
     if (roleElement) {
         typeWriter(roleElement, [
             'FULL-STACK DEVELOPER',

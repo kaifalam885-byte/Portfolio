@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HERO SECTION</title>
-    <link rel="stylesheet" href="css\variable.css">
+    <link rel="stylesheet" href="css/variable.css">
 
-    <link rel="stylesheet" href="css\navbar.css">
+    <link rel="stylesheet" href="css/navbar.css">
 
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css\responsive.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="css\responsive.css">
-<link rel="stylesheet" href="css\scroll-reveal.css">
-<link rel="stylesheet" href="css\carddeck.css">
-<link rel="stylesheet" href="css\typewritter.css">
-<link rel="stylesheet" href="css\enhancedhero.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/scroll-reveal.css">
+<link rel="stylesheet" href="css/carddeck.css">
+<link rel="stylesheet" href="css/typewritter.css">
+<link rel="stylesheet" href="css/enhancedhero.css">
+<link rel="stylesheet" href="css/enhacehero.css">
 
 </head>
 <body>
@@ -34,11 +35,11 @@
 
             <li><a href="#about">About</a></li>
 
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
 
-            <li><a href="skills.html">Skills</a></li>
+            <li><a href="#skills">Skills</a></li>
 
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
 
            
 
@@ -47,32 +48,100 @@
     </nav>
 
 </header>
-<section id="home"><div class="box1">
-    <div class="left">
-        <div class="intro"><h1>Hey,</h1>
-        <h2 id="shii">This side Kaif....</h2></div>
-        
-        <div class="social"><ul>
-            <li class="icon"><i class="fa-brands fa-instagram"></i></li>
-            <li class="icon"><i class="fa-brands fa-linkedin"></i></li>
-            <li class="icon"><i class="fa-brands fa-github"></i></li>
-            <li class="icon"><i class="fa-brands fa-facebook-f"></i></li>
+<section id="home">
+    <div class="hero">
 
-        </ul>
+        <!-- LEFT SIDE -->
+        <div class="hero-content">
+            <p class="hero-label">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>
+                Hey, I'm <span>Kaif Alam.</span>
+            </h1>
+
+            <h2 id="shi">FULL-STACK DEVELOPER</h2>
+
+            <p class="hero-description">
+                I build modern web applications and solve complex
+                problems with clean, efficient code.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-btn">
+                    VIEW PROJECTS
+                </a>
+
+                <a href="#" class="secondary-btn">
+                    RESUME
+                </a>
+            </div>
+
+            <div class="hero-socials">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+        <!-- RIGHT SIDE ANIMATION -->
+        <div class="hero-visual">
+
+            <div class="code-window">
+
+                <div class="window-header">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="code-content">
+                    <p><span class="purple">const</span> developer = {</p>
+
+                    <p class="indent">
+                        name: <span class="green">"Kaif Alam"</span>,
+                    </p>
+
+                    <p class="indent">
+                        role: <span class="green">"Full-Stack Developer"</span>,
+                    </p>
+
+                    <p class="indent">
+                        passion: <span class="green">"Building Products"</span>,
+                    </p>
+
+                    <p class="indent">
+                        status: <span class="green">"Learning & Building"</span>
+                    </p>
+
+                    <p>};</p>
+
+                    <p class="code-last">
+                        <span class="purple">developer</span>.build();
+                        <span class="cursor-line">|</span>
+                    </p>
+                </div>
 
             </div>
+
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+
+        </div>
+
+
+        <!-- SCROLL INDICATOR -->
+        <a href="#about" class="hero-scroll">
+            <span>SCROLL</span>
+            <i class="fa-solid fa-arrow-down"></i>
+        </a>
+
     </div>
-    <div class="centre"></div>
-    <div class="right">
-        <h1 id="shi">FULL-STACK DEVELOPER</h1>
-        <button type="button">RESUME</button>
-    </div>
-</div>
 </section>
 <section id="about">
      <div class="about">
         <div class="aboutimage reveal">
-            <img id="img" src="images\profile image.jpeg" alt="KAIF ALAM ">
+            <img id="img" src="images/profile image.jpeg" alt="KAIF ALAM ">
 
 
     </div>
@@ -89,28 +158,28 @@ Let's build something people actually use."</h3>
 <section id="skills">
 <h1>MY SKILLS</h1>
 <div id="container">
-    <div class="card reveal"><img src="images\python.jpg" alt="PYTHON"><P>PYTHON</P></div>
-    <div class="card reveal"><img src="images\html.jpg" alt="HTML"><p>HTML</p></div>
-    <div class="card reveal"><img src="images\c++.png" alt="C++"><p>C++</p></div>
-    <div class="card reveal"><img src="images\css.png" alt="CSS"><P>CSS</P></div>
-    <div class="card reveal"><img src="images\bootstrap.jpg" alt="Bootstrap"><P>BOOTSTRAP</P></div>
-    <div class="card reveal"><img src="images\nodejs.png" alt="NODE.JS"><P>NODE.js</P></div>
-    <div class="card reveal"><IMG src="images\express js.png" alt="EXPRESS.JS"><p>EXPRESS.js</p></div>
-    <div class="card reveal"><IMG src="images\reactjs.png" alt="REACT.JS"><p>REACT.js</p></div>
-    <div class="card reveal"><IMG src="images\mongodb.png" alt="MONGODB"><P>MONGODB</P></div>
-    <div class="card reveal"><IMG src="images\git.png" alt="GIT"><P>GIT</P></div>
-    <div class="card reveal"><IMG src="images\github.png" alt="GITHUB"><P>GITHUB</P></div>
-    <div class="card reveal"><IMG src="images\tailwind css.png" alt="TAILWIND.CSS"><P>TAILWIND.CSS</P></div>
+    <div class="card "><img src="images/python.jpg" alt="PYTHON"><P>PYTHON</P></div>
+    <div class="card "><img src="images/html.jpg" alt="HTML"><p>HTML</p></div>
+    <div class="card "><img src="images/c++.png" alt="C++"><p>C++</p></div>
+    <div class="card "><img src="images/css.png" alt="CSS"><P>CSS</P></div>
+    <div class="card "><img src="images/bootstrap.jpg" alt="Bootstrap"><P>BOOTSTRAP</P></div>
+    <div class="card "><img src="images/nodejs.png" alt="NODE.JS"><P>NODE.js</P></div>
+    <div class="card "><IMG src="images/express js.png" alt="EXPRESS.JS"><p>EXPRESS.js</p></div>
+    <div class="card "><IMG src="images/reactjs.png" alt="REACT.JS"><p>REACT.js</p></div>
+    <div class="card "><IMG src="images/mongodb.png" alt="MONGODB"><P>MONGODB</P></div>
+    <div class="card "><IMG src="images/git.png" alt="GIT"><P>GIT</P></div>
+    <div class="card "><IMG src="images/github.png" alt="GITHUB"><P>GITHUB</P></div>
+    <div class="card "><IMG src="images/tailwind css.png" alt="TAILWIND.CSS"><P>TAILWIND.CSS</P></div>
 
 </div>
 
 </section>
-<section class="projects">
+<section id="projects" class="projects">
     <h1>PROJECTS</h1>
     
     <div class="projectcontainer">
 
-<div class="projectcard reveal">
+<div class="projectcard ">
         <div class="image">
             <img src="images/placeholder.jpg" alt="Coming Soon">
         </div>
@@ -122,7 +191,7 @@ Let's build something people actually use."</h3>
     </div>
 
 
-    <div class="projectcard reveal">
+    <div class="projectcard ">
         <div class="image">
             <img src="images/placeholder.jpg" alt="Coming Soon">
         </div>
@@ -134,7 +203,7 @@ Let's build something people actually use."</h3>
     </div>
 
 
-    <div class="projectcard reveal">
+    <div class="projectcard ">
         <div class="image">
             <img src="images/placeholder.jpg" alt="Coming Soon">
         </div>
@@ -146,7 +215,7 @@ Let's build something people actually use."</h3>
     </div>
 
 
-    <div class="projectcard reveal">
+    <div class="projectcard ">
         <div class="image">
             <img src="images/placeholder.jpg" alt="Coming Soon">
         </div>
@@ -166,7 +235,7 @@ Let's build something people actually use."</h3>
 
 </section>
 
-<section class="contact">
+<section id="contact" class="contact">
    
 <div class="cont">
     <div class="gret">
@@ -205,9 +274,10 @@ Let's build something people actually use."</h3>
 </footer>
 
 
-   <script src="js\reveal.js"></script> 
-   <script src="js\cursor.js"></script>
-   <script src="js\card.js"></script>
-   <script src="js\typewritter.js"></script>
+   <script src="js/reveal.js"></script> 
+   <script src="js/cursor.js"></script>
+   <script src="js/card.js"></script>
+   <script src="js/typewritter.js"></script>
+   <script src="js/navbar.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-.right h2::after {
+#shi::after{
     content: '|';
     color: var(--accent);
     animation: blink 0.8s step-end infinite;

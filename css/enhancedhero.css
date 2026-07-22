@@ -14,7 +14,7 @@
 }
  
 /* Right side role title */
-.right h2 {
+#shi {
     font-size: 2.2rem;
     animation: fadeInUp 0.8s ease-out 0.3s backwards;
     position: relative;
@@ -76,17 +76,7 @@ button[type="button"]:hover {
 }
  
 /* Floating decorative shape behind hero (pure CSS, no images needed) */
-.box1::before {
-    content: '';
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    border: 1px solid rgba(0, 230, 230, 0.15);
-    border-radius: 50%;
-    top: -100px;
-    right: -100px;
-    animation: float 6s ease-in-out infinite;
-}
+
  
 @keyframes float {
     0%, 100% { transform: translateY(0); }
